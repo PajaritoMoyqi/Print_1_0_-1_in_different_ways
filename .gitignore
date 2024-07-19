@@ -1,0 +1,7 @@
+# c execution file
+*.exe
+
+# c object file
+*.o
+
+*.out
