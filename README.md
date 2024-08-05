@@ -51,9 +51,9 @@ printf( "%d", a == 'a' );
 7-11: <limits.h> in C
 
 ```c
-printf( "%u\n", UINT_MAX + 1 );
-printf( "%hhu\n", UCHAR_MAX + 1 );
-printf( "%hu\n", USHRT_MAX + 1 );
-printf( "%lu\n", ULONG_MAX + 1 );
-printf( "%llu\n", ULLONG_MAX + 1 );
+printf( "%u", UINT_MAX + 1 );
+printf( "%hhu", UCHAR_MAX + 1 );
+printf( "%hu", USHRT_MAX + 1 );
+printf( "%lu", ULONG_MAX + 1 );
+printf( "%llu", ULLONG_MAX + 1 );
 ```
