@@ -2,7 +2,7 @@
 
 Print 1, 0, -1 in different languages, in different ways.
 
-Now here is 11 ways of priting 0 or 1 or -1.
+Now here exist 12 ways of priting 0 or 1 or -1.
 
 ### Number of examples
 
@@ -10,7 +10,7 @@ Now here is 11 ways of priting 0 or 1 or -1.
 
 | Result | Number of examples |
 |:-----:|:--------------:|
-| -1 | 0 |
+| -1 | 1 |
 | 0 | 8 |
 | 1 | 3 |
 
@@ -18,7 +18,7 @@ Now here is 11 ways of priting 0 or 1 or -1.
 
 | Language | Number of examples |
 |:-----:|:--------------:|
-| C | 11 |
+| C | 12 |
 
 ## Code list
 
@@ -56,4 +56,10 @@ printf( "%hhu", UCHAR_MAX + 1 );
 printf( "%hu", USHRT_MAX + 1 );
 printf( "%lu", ULONG_MAX + 1 );
 printf( "%llu", ULLONG_MAX + 1 );
+```
+
+12: EOF in C
+
+```c
+printf( "%d", EOF );
 ```
