@@ -31,5 +31,5 @@ int main( void )
     printf( "\n" );
     printf( "%d", a == 'a' ); // true, print 1
 
-	  return 0;
+    return 0;
 }

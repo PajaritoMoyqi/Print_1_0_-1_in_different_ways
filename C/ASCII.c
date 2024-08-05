@@ -14,5 +14,5 @@ int main( void )
     printf( "\n" );
     printf( "%d", '' ); // SOH(Start Of Header), print 1
 
-	  return 0;
+    return 0;
 }

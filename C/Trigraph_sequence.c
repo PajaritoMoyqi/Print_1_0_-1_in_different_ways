@@ -14,7 +14,7 @@ int main( void )
 ??<
     printf( "%d", "??=" == "#" );
 
-	  return 0;
+    return 0;
 ??>
 
 /*

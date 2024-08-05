@@ -24,7 +24,7 @@ int main( void )
     // print 0 because "%:" is not gonna be replaced to "#" because this pattern is inside of the other token.
     printf( "%d", "%:" == "#" );
 
-	  return 0;
+    return 0;
 %>  // replaced
 
 /*
